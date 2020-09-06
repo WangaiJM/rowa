@@ -10020,6 +10020,7 @@ nav .nav-item:hover {
   position: absolute;
   bottom: 2.5rem;
   right: 1rem;
+  left: 1rem;
   padding: 3rem;
 }
 
@@ -10057,20 +10058,55 @@ nav .nav-item:hover {
   padding: 3rem;
 }
 
-.banner-home {
+.banner-travel {
   height: 60vh;
-  background-image: url("../Images/house.jpg");
+  background-image: url("../Images/travel_1.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   position: relative;
 }
-.banner-home div {
-  background: rgba(0, 255, 0, 0.2);
+.banner-travel div {
+  background: rgba(27, 82, 27, 0.8);
+  color: #fff;
+  position: absolute;
+  top: 2.5rem;
+  right: 50%;
+  padding: 3rem;
+}
+
+.banner-health {
+  height: 60vh;
+  background-image: url("../Images/selfcare.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  position: relative;
+}
+.banner-health div {
+  background: rgba(27, 82, 27, 0.8);
+  color: #fff;
+  position: absolute;
+  top: 40%;
+  right: 1rem;
+  padding: 3rem;
+}
+
+.banner-wiba {
+  height: 60vh;
+  background-image: url("../Images/workers.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.banner-wiba div {
+  background: #133313;
   color: #fff;
   position: absolute;
   bottom: 2.5rem;
   left: 1rem;
+  right: 1rem;
   padding: 3rem;
 }
 

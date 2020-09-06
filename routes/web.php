@@ -19,12 +19,11 @@ Route::get('/about', 'LandingController@about');
 Route::get('/personal_motor', 'LandingController@personal_motor');
 Route::get('/personal_family', 'LandingController@personal_family');
 Route::get('/personal_travel', 'LandingController@personal_travel');
-Route::get('/personal_accident', 'LandingController@personal_accident');
+Route::get('/health', 'LandingController@health');
+
 
 Route::get('/commercial_motor', 'LandingController@commercial_motor');
-Route::get('/commercial_flood', 'LandingController@commercial_flood');
-Route::get('/commercial_fire', 'LandingController@commercial_fire');
-Route::get('/commercial_accident', 'LandingController@commercial_accident');
+Route::get('/wiba', 'LandingController@wiba');
 
 Route::get('/contacts', 'LandingController@contacts');
 

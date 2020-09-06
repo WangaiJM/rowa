@@ -40,8 +40,7 @@
                         <ul class="dropdown-menu dropdown-menu-right">
                             <li class="nav-item"><a href="/personal_motor" class="nav-link">Motor Private Insurance</a></li>
                             <li class="nav-item"><a href="/personal_travel" class="nav-link">Travel Insurance policy</a></li>
-                            <li class="nav-item"><a href="/personal_accident" class="nav-link">Personal Accident Insurance Cover</a></li>
-                            <li class="nav-item"><a href="/personal_family" class="nav-link">Family health Cover</a></li>
+                            <li class="nav-item"><a href="/health" class="nav-link">health Insurance</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
@@ -50,9 +49,7 @@
                         </a>
                         <ul class="dropdown-menu dropdown-menu-right">
                             <li class="nav-item"><a href="/commercial_motor" class="nav-link">Motor Insurance</a></li>
-                            <li class="nav-item"><a href="/commercial_fire" class="nav-link">Fire Insurance</a></li>
-                            <li class="nav-item"><a href="/commercial_accident" class="nav-link">Accident Insurance</a></li>
-                            <li class="nav-item"><a href="/commercial_flood" class="nav-link">Flood and Buglary</a></li>
+                            <li class="nav-item"><a href="/wiba" class="nav-link">WIBA</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">

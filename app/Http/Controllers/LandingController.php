@@ -16,28 +16,20 @@ class LandingController extends Controller
     public function personal_motor(){
         return view('site.pages.personal.motor');
     }
-    public function personal_accident(){
-        return view('site.pages.personal.accident');
-    }
-    public function personal_family(){
-        return view('site.pages.personal.family');
-    }
     public function personal_travel(){
         return view('site.pages.personal.travel');
     }
+    public function health(){
+        return view('site.pages.personal.health');
+    }
+
 
 
     public function commercial_motor(){
         return view('site.pages.commercial.motor');
     }
-    public function commercial_accident(){
-        return view('site.pages.commercial.accident');
-    }
-    public function commercial_fire(){
-        return view('site.pages.commercial.fire');
-    }
-    public function commercial_flood(){
-        return view('site.pages.commercial.flood');
+    public function wiba(){
+        return view('site.pages.commercial.wiba');
     }
     
     public function contacts(){

@@ -88,7 +88,7 @@
                     <p class="px-4">
                         Our bespoke travel package is accepted by countries that require travel insurance before issuing the visa and is tailored to meet all needs of students, groups, individuals as well as corporate business travelers. Take a few minutes to travel smarter and safer by purchasing our product online.
                     </p>
-                    <a href="" class="btn btn-lg btn-outline-primary">Learn more</a>
+                    <a href="/personal_travel" class="btn btn-lg btn-outline-primary">Learn more</a>
                 </div>
             </div>
             <div class="col-md-6 m-0 p-0">
