@@ -105,7 +105,7 @@
                     <p class="px-4">
                         Your family’s health and safety means the world to you. We understand that and want to help you protect your loved ones from situations beyond your control. Health Insurance is perfect for you for a life free from worries. With a health insurance you have access to a convenient provider network and a flexible cover to cater for your needs.
                     </p>
-                    <a href="" class="btn btn-lg btn-outline-primary">Learn more</a>
+                    <a href="/health" class="btn btn-lg btn-outline-primary">Learn more</a>
                 </div>
             </div>
       </div>
