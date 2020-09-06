@@ -1,0 +1,152 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+header.masthead {
+    // padding-top: 10.5rem;
+    // padding-bottom: 6rem;
+    text-align: center;
+    color: #fff;
+    background-image: url("/Images/umbrella.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    height: 90vh;
+
+    .masthead-subheading {
+        font-size: 1.5rem;
+        font-style: italic;
+        line-height: 1.5rem;
+        margin-bottom: 25px;
+        font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        color: rgb(231, 221, 74);
+      }
+
+      .masthead-heading {
+        font-size: 3.25rem;
+        font-weight: 700;
+        line-height: 3.25rem;
+        margin-bottom: 2rem;
+        font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        color: rgb(243, 239, 0);
+      }
+  }
+  
+    
+  
+  @media (min-width: 768px) {
+    header.masthead {
+      padding-top: 17rem;
+      padding-bottom: 12.5rem;
+
+      .masthead-subheading {
+        font-size: 2.25rem;
+        font-style: italic;
+        line-height: 2.25rem;
+        margin-bottom: 2rem;
+      }
+
+      .masthead-heading {
+        font-size: 4.5rem;
+        font-weight: 700;
+        line-height: 4.5rem;
+        margin-bottom: 4rem;
+      }
+    }
+  }
+
+  nav{
+    background: rgba(3, 85, 4, .6);
+
+    .nav-item{
+      background: rgba(3, 85, 4, .4);
+      margin: 0 5px 0;
+      padding: 0;
+
+      &:hover{
+        background: rgb(3, 85, 4);
+        font-weight: 700;
+      }
+    }
+  }
+  .banner{
+    height: 60vh;
+  }
+  .banner-home{
+    height: 60vh;
+    background-image: url('../Images/agreement.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+    div{
+      background: rgba(0,255,0,.2);
+      color: #fff;
+      position: absolute;
+      bottom: 2.5rem;
+      right: 1rem;
+      padding: 3rem;
+    }
+  }
+  .banner-about{
+    height: 60vh;
+    background-image: url('../Images/contract.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+    div{
+      background: rgba(15, 139, 15, 0.8);
+      color: #fff;
+      position: absolute;
+      bottom: 2.5rem;
+      left: 1rem;
+      padding: 3rem;
+    }
+  }
+  .banner-motor{
+    height: 60vh;
+    background-image: url('../Images/car.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+    div{
+      background: rgba(27, 82, 27, 0.8);
+      color: #fff;
+      position: absolute;
+      top: 2.5rem;
+      right: 50%;
+      padding: 3rem;
+    }
+  }
+  .banner-home{
+    height: 60vh;
+    background-image: url('../Images/house.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+    div{
+      background: rgba(0,255,0,.2);
+      color: #fff;
+      position: absolute;
+      bottom: 2.5rem;
+      left: 1rem;
+      padding: 3rem;
+    }
+  }
+
+  .description{
+    overflow: hidden;
+  }
